@@ -9,7 +9,7 @@ Hiberoid is work same as like hibernate but Hiberoid is simple to use in android
 
 To use the Hiberoid:
 
-1. Add the following to your modul level build.gradle file in android studio:
+1. Android Studio: Add the following to your modul level build.gradle file:
 
     ```yml
     compile 'com.om.hiberoid:hiberoid:1.0.0'
