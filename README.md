@@ -1,4 +1,4 @@
-<H1>The Slate theme<H1>
+<H1>The Slate theme</H1>
 
 Build Status Gem Version
 
