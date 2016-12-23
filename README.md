@@ -1,27 +1,18 @@
-<H1>Hiberoid Android to Sqlite</H1>
-Hiberoid provide relationship between Object and Database of Sqlite.
-Hiberoid is work same as like hibernate but Hiberoid is simple to use in android.
-</br>
-<h4>Gradle in android studio</h4>
-<code>compile 'com.om.hiberoid:hiberoid:1.0.0'</code>
+# Hiberoid Android to Sqlite
 
+*Hiberoid provide relationship between Object and Database of Sqlite.
+Hiberoid is work same as like hibernate but Hiberoid is simple to use in android.*
 
-# The Slate theme
-
-[![Build Status](https://travis-ci.org/pages-themes/slate.svg?branch=master)](https://travis-ci.org/pages-themes/slate) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-slate.svg)](https://badge.fury.io/rb/jekyll-theme-slate)
-
-*Slate is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/slate), or even [use it today](#usage).*
-
-![Thumbnail of slate](thumbnail.png)
+<!--![Thumbnail of slate](thumbnail.png)-->
 
 ## Usage
 
-To use the Slate theme:
+To use the Hiberoid:
 
-1. Add the following to your site's `_config.yml`:
+1. Add the following to your modul level build.gradle file in android studio:
 
     ```yml
-    theme: jekyll-theme-slate
+    compile 'com.om.hiberoid:hiberoid:1.0.0'
     ```
 
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
