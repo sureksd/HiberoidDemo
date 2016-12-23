@@ -1,7 +1,7 @@
 # Hiberoid Android to Sqlite
 
 *Hiberoid provide relationship between Object and Database of Sqlite.
-Hiberoid is work same as like hibernate but Hiberoid is simple to use in android.*
+Hiberoid is work same as like hibernate but Hiberoid is work on only android. It's simple to use in android.*
 
 <!--![Thumbnail of slate](thumbnail.png)-->
 
