@@ -28,15 +28,19 @@ How integrate to Hiberoid?
 
 
 
-## Customizing
+## Coding Part
 
-### Configuration variables
+### Hiberoid Object
 
-Slate will respect the following variables, if set in your site's `_config.yml`:
+Create a object of Hiberoid for request on Sqlite for database queries. Requirement for Create object of Hiberoid as parameter:
+
+1. Context of your app
+2. Database name you want to create
+3. Your database version in int. If you want to update your exist database then required increament old version value.
 
 ```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
+int version=1;
+Hiberoid hiberoid=new Hiberoid(context,"my_database_name",version);
 ```
 
 Additionally, you may choose to set the following optional variables:
