@@ -5,9 +5,9 @@ Hiberoid is work same as like hibernate but Hiberoid is work on only android. It
 
 <!--![Thumbnail of slate](thumbnail.png)-->
 
-## Usage
+## Integration
 
-To use the Hiberoid:
+How integrate to Hiberoid?
 
 1. Android Studio: Add the following to your modul level build.gradle file:
 
