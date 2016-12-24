@@ -15,10 +15,15 @@ To use the Hiberoid:
     compile 'com.om.hiberoid:hiberoid:1.0.0'
     ```
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+2. For Maven project using in pom.xml:
 
     ```ruby
-    gem "github-pages", group: :jekyll_plugins
+    <dependency>
+        <groupId>com.om.hiberoid</groupId>
+        <artifactId>hiberoid</artifactId>
+        <version>1.0.0</version>
+        <type>pom</type>
+    </dependency>
     ```
 
 
