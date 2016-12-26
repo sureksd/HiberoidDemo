@@ -65,7 +65,29 @@ public class Student implements Serializable {
 ```
 Here Bean class name 'Student' and table name also 'Student'.
 ### Mapping between Instance Variable of Class and Database Table Columns
-Instance variable of your entity class directly it's columns in table without any annotations. If you want to change name of column in table then using @column annotation with name of custome column name on particuler instance variable.
+Instance variable of your entity class directly it's columns in table without any annotations. If you want to change name of column in table then using @column annotation with name of custome column name on particuler instance variable. if you want to make a primary key in table then using @Id annotation on particuler instance variable in entity class.Ex
+```yml
+@Entity(name = "Apex")
+public class Student implements Serializable {
+    @Id
+    private int id;
+    
+    @Column(name="Student_name")
+    private String name;
+    
+    @Column
+    private String class_name;
+    private String grade;
+    .......   
+}
+ ```
+ 1. In this code @Id annotation on 'id' variable, Now this is a primary key in table.
+ 2. If @column without any parameter apply on variable then this behave as default(variable Without @Column Annotation)
+ 3. Also you can change of data type, default value and nullable in table using parameter.
+ ```yml
+  @Column(name="Student_name",dataType ="varchar(50)",defaultValue ="Surendra",nullable = Column.NULLABLE.NOTNULL)
+   ```
+  Default Value of nullable parameter is Column.NULLABLE.NULL
 
 ### More Description 
 [Visit Hiberoid github page](https://sureksd.github.io/HiberoidDemo/)
