@@ -60,6 +60,7 @@ In above code, bean class name is 'Student' but table name 'Students'. Here usin
 ```yml
 @Entity
 public class Student implements Serializable {
+    .....
 }
 ```
 Here Bean class name 'Student' and table name also 'Student'.
