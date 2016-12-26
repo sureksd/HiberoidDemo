@@ -42,6 +42,28 @@ Create a object of Hiberoid for request on Sqlite for database queries. Requirem
 int version=1;
 Hiberoid hiberoid=new Hiberoid(context,"my_database_name",version);
 ```
+### Bean Class and Database Table
+
+Hiberoid mapping your bean class to database table. Hiberoid using some annotations like @Entity, @Id, @Column for direct fast and simple implementation.
+```yml
+@Entity(name = "Students")
+public class Student implements Serializable {
+    
+    private int id;
+    private String name;
+    private String class_name;
+    private String grade;
+    .....
+}
+```
+In above code, bean class name is 'Student' but table name 'Students'. Here using @Entity annotation on bean class (@Entity is class level Annotation) for make this bean class(Student) to table of database, if you’re not set @Entity on any bean class that mean class not a table for database mapping. Hiberoid make mapping on only those class have @Entity annotation, without annotation classes are normal class.
+```yml
+@Entity
+public class Student implements Serializable {
+}
+```
+Here Bean class name 'Student' and table name also 'tudent'
+
 
 ### More Description 
 [Visit Hiberoid github page](https://sureksd.github.io/HiberoidDemo/)
