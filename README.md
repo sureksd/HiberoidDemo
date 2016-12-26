@@ -91,6 +91,17 @@ public class Student implements Serializable {
  ```
   
   Default Value of nullable parameter is Column.NULLABLE.NULL
+### Insert object(Record) in table
+Using Hiberoid object to operation on table. When insert a record in table then return value of row id as long type. Ex..
 
+ ```yml
+   Student student = new Student(name.getText().toString(), class_name.getText().toString(), grade.getText().toString());
+   long rowId = hiberoid.insert(student);
+ ```
+### Get(Record) in table
+Get all records from table Students. Here using only class name not table name. see below code..
+ ```yml
+List<Student> students = hiberoid.fetchAll(Student.class);
+ ```
 ### More Description 
 [Visit Hiberoid github page](https://sureksd.github.io/HiberoidDemo/)
