@@ -67,7 +67,7 @@ Here Bean class name 'Student' and table name also 'Student'.
 ### Mapping between Instance Variable of Class and Database Table Columns
 Instance variable of your entity class directly it's columns in table without any annotations. If you want to change name of column in table then using @column annotation with name of custome column name on particuler instance variable. if you want to make a primary key in table then using @Id annotation on particuler instance variable in entity class.Ex
 ```yml
-@Entity(name = "Apex")
+@Entity(name = "Students")
 public class Student implements Serializable {
     @Id
     private int id;
