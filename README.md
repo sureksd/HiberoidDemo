@@ -81,6 +81,7 @@ public class Student implements Serializable {
     .......   
 }
  ```
+ 
  1. In this code @Id annotation on 'id' variable, Now this is a primary key in table.
  2. If @column without any parameter apply on variable then this behave as default(variable Without @Column Annotation)
  3. Also you can change of data type, default value and nullable in table using parameter.
