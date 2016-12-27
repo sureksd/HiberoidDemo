@@ -1,8 +1,195 @@
 <html>
-<head>
-<title>Hiberoid Demo</title>
-</head>
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset="utf-8">
+    
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-b94ec35a696398c8a00f27343992e597c93faadce7783164f7f8967248cc818f.css" integrity="sha256-uU7DWmljmMigDyc0OZLll8k/qtzneDFk9/iWckjMgY8=" media="all" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-f1dd95db316b03c6d429dd35926fdf5b6520abdff62d481127e84cc9ab7460d0.css" integrity="sha256-8d2V2zFrA8bUKd01km/fW2Ugq9/2LUgRJ+hMyat0YNA=" media="all" rel="stylesheet">
+    
+    
+    
+    
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Hiberoid Android to Sqlite: Hiberoid provide relationship between Object and Database of Sqlite. Hiberoid is work same as like hibernate but Hiberoid is work on only android. It's simple to use in android</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="https://avatars3.githubusercontent.com/u/19796906?v=3&amp;s=400" name="twitter:image:src"><meta content="@github" name="twitter:site"><meta content="summary" name="twitter:card"><meta content="sureksd/HiberoidDemo" name="twitter:title"><meta content="HiberoidDemo - Hiberoid provide relationship between Object and Database of Sqlite. Hiberoid is work same as like hibernate but Hiberoid is work on only android. It&amp;#39;s simple to use in android. ..." name="twitter:description">
+      <meta content="https://avatars3.githubusercontent.com/u/19796906?v=3&amp;s=400" property="og:image"><meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="sureksd/HiberoidDemo" property="og:title"><meta content="https://github.com/sureksd/HiberoidDemo" property="og:url"><meta content="HiberoidDemo - Hiberoid provide relationship between Object and Database of Sqlite. Hiberoid is work same as like hibernate but Hiberoid is work on only android. It&amp;#39;s simple to use in android. ..." property="og:description">
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTQyODQzODIwOmE0Y2IzZDc5ZDMzMWE3OTdhODY4M2EzY2YyNjYxZTVmNmJhZDU5OGNmNGFmODQyNzNiMWNjNjkyN2E4YjdmYTg=--81503107e14b83c626c74fcc7cf4af4089b425cf">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+    <meta name="request-id" content="7563A708:73CE:13B25017:5861F63F" data-pjax-transient="">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="github" name="octolytics-app-id"><meta content="7563A708:73CE:13B25017:5861F63F" name="octolytics-dimension-request_id"><meta content="19796906" name="octolytics-actor-id"><meta content="sureksd" name="octolytics-actor-login"><meta content="1dc00bdde0996d146961e42b7da67a9a156ff8f8cbb9b7c1e951072dcb5be768" name="octolytics-actor-hash">
+<meta content="/<user-name>/<repo-name>" data-pjax-transient="true" name="analytics-location">
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="sureksd">
+
+        <meta name="expected-hostname" content="github.com">
+      <meta name="js-proxy-site-detection-payload" content="ZTcwNjk3NTgzZTM5YWQ1MTdmOTg2NzA2NDI2NjI1OTdlYzkyODg2YjAxNzYyOTIyODg1ZmEzMDJmMGM1NzdiOXx7InJlbW90ZV9hZGRyZXNzIjoiMTE3Ljk5LjE2Ny44IiwicmVxdWVzdF9pZCI6Ijc1NjNBNzA4OjczQ0U6MTNCMjUwMTc6NTg2MUY2M0YiLCJ0aW1lc3RhbXAiOjE0ODI4MTUwNDMsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta name="html-safe-nonce" content="049c9fe71ac10b06f86d45e7a586fcea94fac7b0">
+
+    <meta http-equiv="x-pjax-version" content="203d57c5c44f11628e7dad3025220601">
+    
+
+      
+  <meta name="description" content="HiberoidDemo - Hiberoid provide relationship between Object and Database of Sqlite. Hiberoid is work same as like hibernate but Hiberoid is work on only android. It's simple to use in android. More Detail Visit">
+  <meta name="go-import" content="github.com/sureksd/HiberoidDemo git https://github.com/sureksd/HiberoidDemo.git">
+
+  <meta content="19796906" name="octolytics-dimension-user_id"><meta content="sureksd" name="octolytics-dimension-user_login"><meta content="77215114" name="octolytics-dimension-repository_id"><meta content="sureksd/HiberoidDemo" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="77215114" name="octolytics-dimension-repository_network_root_id"><meta content="sureksd/HiberoidDemo" name="octolytics-dimension-repository_network_root_nwo">
+  <link href="https://github.com/sureksd/HiberoidDemo/commits/master.atom" rel="alternate" title="Recent Commits to HiberoidDemo:master" type="application/atom+xml">
+
+
+      <link rel="canonical" href="https://github.com/sureksd/HiberoidDemo" data-pjax-transient="">
+  </head>
 <body>
-No description found
+<article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-hiberoid-android-to-sqlite" class="anchor" href="#hiberoid-android-to-sqlite" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hiberoid Android to Sqlite</h1>
+
+<p><em>Hiberoid provide relationship between Object and Database of Sqlite.
+Hiberoid is work same as like hibernate but Hiberoid is work on only android. It's simple to use in android.</em></p>
+
+
+
+<h2><a id="user-content-integration" class="anchor" href="#integration" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Integration</h2>
+
+<p>How integrate to Hiberoid?</p>
+
+<ol>
+<li><p>Android Studio: Add the following to your modul level build.gradle file:</p>
+
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">compile 'com.om.hiberoid</span>:<span class="pl-ent">hiberoid</span>:1.0.0<span class="pl-s"><span class="pl-pds">'</span></span></pre></div></li>
+<li><p>For Maven project using in pom.xml:</p>
+
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">&lt;</span>dependency<span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>groupId<span class="pl-k">&gt;</span>com.om.hiberoid<span class="pl-k">&lt;</span><span class="pl-k">/</span>groupId<span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>artifactId<span class="pl-k">&gt;</span>hiberoid<span class="pl-k">&lt;</span><span class="pl-k">/</span>artifactId<span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>version<span class="pl-k">&gt;</span><span class="pl-c1">1.0</span>.<span class="pl-c1">0</span><span class="pl-k">&lt;</span><span class="pl-k">/</span>version<span class="pl-k">&gt;</span>
+    <span class="pl-k">&lt;</span>type<span class="pl-k">&gt;</span>pom<span class="pl-k">&lt;</span><span class="pl-k">/</span>type<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span><span class="pl-k">/</span>dependency<span class="pl-k">&gt;</span></pre></div></li>
+</ol>
+
+<h2><a id="user-content-coding-part" class="anchor" href="#coding-part" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coding Part</h2>
+
+<h3><a id="user-content-hiberoid-object" class="anchor" href="#hiberoid-object" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hiberoid Object</h3>
+
+<p>Create a object of Hiberoid for request on Sqlite for database queries. Requirement for Create object of Hiberoid as parameter:</p>
+
+<ol>
+<li>Context of your app</li>
+<li>Database name you want to create</li>
+<li>Your database version in int. If you want to update your exist database then required increament old version value.</li>
+</ol>
+
+<div class="highlight highlight-source-yaml"><pre>int version=1;
+Hiberoid hiberoid=new Hiberoid(context,<span class="pl-s"><span class="pl-pds">"</span>my_database_name<span class="pl-pds">"</span></span>,version);</pre></div>
+
+<h3><a id="user-content-bean-class-and-database-table" class="anchor" href="#bean-class-and-database-table" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bean Class and Database Table</h3>
+
+<p>Hiberoid mapping your bean class to database table. Hiberoid using some annotations like @Entity, @Id, @Column for direct fast and simple implementation.</p>
+
+<div class="highlight highlight-source-yaml"><pre>@Entity(name = <span class="pl-s"><span class="pl-pds">"</span>Students<span class="pl-pds">"</span></span>)
+public class Student implements Serializable {
+
+    private int id;
+    private String name;
+    private String class_name;
+    private String grade;
+    .....
+}</pre></div>
+
+<p>In above code, bean class name is 'Student' but table name 'Students'. Here using @Entity annotation on bean class (@Entity is class level Annotation) for make this bean class(Student) to table of database, if you’re not set @Entity on any bean class that mean class not a table for database mapping. Hiberoid make mapping on only those class have @Entity annotation, without annotation classes are normal class.</p>
+
+<div class="highlight highlight-source-yaml"><pre>@Entity
+public class Student implements Serializable {
+    .....
+}</pre></div>
+
+<p>Here Bean class name 'Student' and table name also 'Student'.</p>
+
+<h3><a id="user-content-mapping-between-instance-variable-of-class-and-database-table-columns" class="anchor" href="#mapping-between-instance-variable-of-class-and-database-table-columns" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mapping between Instance Variable of Class and Database Table Columns</h3>
+
+<p>Instance variable of your entity class directly it's columns in table without any annotations. If you want to change name of column in table then using @column annotation with name of custome column name on particuler instance variable. if you want to make a primary key in table then using @Id annotation on particuler instance variable in entity class.Ex</p>
+
+<div class="highlight highlight-source-yaml"><pre>@Entity(name = <span class="pl-s"><span class="pl-pds">"</span>Students<span class="pl-pds">"</span></span>)
+public class Student implements Serializable {
+    @Id
+    private int id;
+
+    @Column(name=<span class="pl-s"><span class="pl-pds">"</span>Student_name<span class="pl-pds">"</span></span>)
+    private String name;
+
+    @Column
+    private String class_name;
+    private String grade;
+    .......   
+}</pre></div>
+
+<ol>
+<li>In this code @Id annotation on 'id' variable, Now this is a primary key in table.</li>
+<li>If @column without any parameter apply on variable then this behave as default(variable Without @Column Annotation)</li>
+<li><p>Also you can change of data type, default value and nullable in table using parameter.</p>
+
+<div class="highlight highlight-source-yaml"><pre>@Column(name=<span class="pl-s"><span class="pl-pds">"</span>Student_name<span class="pl-pds">"</span></span>,dataType =<span class="pl-s"><span class="pl-pds">"</span>varchar(50)<span class="pl-pds">"</span></span>,defaultValue =<span class="pl-s"><span class="pl-pds">"</span>Surendra<span class="pl-pds">"</span></span>,nullable = Column.NULLABLE.NOTNULL)</pre></div>
+
+<p>Default Value of nullable parameter is Column.NULLABLE.NULL</p>
+
+<h3><a id="user-content-insert-objectrecord-in-table" class="anchor" href="#insert-objectrecord-in-table" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Insert object(Record) in table</h3>
+
+<p>Using Hiberoid object to operation on table. When insert a record in table then return value of row id as long type. Ex..</p>
+
+<div class="highlight highlight-source-yaml"><pre> Student student = new Student(name.getText().toString(), class_name.getText().toString(), grade.getText().toString());
+long rowId = hiberoid.insert(student);</pre></div>
+
+<h3><a id="user-content-get-record-from-table" class="anchor" href="#get-record-from-table" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Get Record from table</h3>
+
+<p>Get all records from table Students. Here using only class name not table name. see below code..</p>
+
+<div class="highlight highlight-source-yaml"><pre>List&lt;Student&gt; students = hiberoid.fetchAll(Student.class);</pre></div>
+
+<h3><a id="user-content-more-description" class="anchor" href="#more-description" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>More Description</h3>
+
+<p><a href="https://sureksd.github.io/HiberoidDemo/">Visit Hiberoid github page</a></p></li>
+</ol>
+</article>
 </body>
 </html>
